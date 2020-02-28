@@ -1,3 +1,13 @@
+from turtle import *
+
+background = Screen()
+background.setup(width=400, height=300)
+background.bgcolor("green")
+background.tracer(0)
+
+
+
+
 # Player 1
 p1 = Turtle()
 p1.speed(0)
